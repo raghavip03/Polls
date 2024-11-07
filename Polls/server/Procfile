@@ -1,1 +1,1 @@
-web: node dist/routes.js
+web: tsc-watch -p tsconfig.json --onSuccess 'node dist/routes.js'
