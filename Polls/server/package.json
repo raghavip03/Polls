@@ -8,7 +8,7 @@
     "lint": "comfy-tslint src/*.{ts,tsx}",
     "test": "ts-mocha -p tsconfig.json src/**/*_test.ts",
     "server": "node .",
-    "start": "tsc-watch -p tsconfig.json --onSuccess 'node .'"
+    "start": "node dist/routes.js"
   },
   "author": "",
   "license": "ISC",
