@@ -10,6 +10,9 @@
       "use": "@vercel/node"
     }
   ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/Polls/Polls/server/api/$1" },
     { "src": "/(.*)", "dest": "/Polls/Polls/client/index.html" }
