@@ -11,10 +11,10 @@
     }
   ],
   "rewrites": [
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html"
+    "rewrites": [{ "source": "/(.*)", "destination": "/Polls/Polls/client/src/index.html"
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/Polls/Polls/server/api/$1" },
-    { "src": "/(.*)", "dest": "/Polls/Polls/client/index.html" }
+    { "src": "/(.*)", "dest": "/Polls/Polls/client/src/index.html" }
   ]
 }
