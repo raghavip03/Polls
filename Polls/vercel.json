@@ -11,7 +11,7 @@
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html"
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/Polls/Polls/server/api/$1" },
